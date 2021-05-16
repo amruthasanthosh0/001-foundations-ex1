@@ -15,9 +15,9 @@ int main()
 	if(bmi<18.5)
 		printf("%S\t%f\tUnderweight",name,bmi);
 	else if(bmi>=1.8&&bmi<=24.9)
-		printf("%S\t%f\tNormal",name,bmi);
+		printf("%S\t%f\tnormal",name,bmi);
 	else if(bmi>=25&&bmi<=29.9)
-		printf("%S\t%f\tOverweight",name,bmi);
+		printf("%S\t%f\toverweight",name,bmi);
 	else
-		printf("%S\t%f\tObese",name,bmi);
+		printf("%S\t%f\tobese",name,bmi);
 }
